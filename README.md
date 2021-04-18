@@ -46,10 +46,8 @@ Peer-to-peer network connections (peerings) are configured between the two virtu
 Firewalls are built to protect a network. It also is used to block and allow traffic to the virtual network and between machines on the network.
 
 # Configuration Details:
-
- ![Screen Shot 2021-04-18 at 6 24 21 PM](https://user-images.githubusercontent.com/71534804/115162766-4ee13f80-a073-11eb-80c9-c8fdaebc6c1e.png)
  
- NAME 	FUNCTION	IP ADDRESS	OPERATING SYSTEM 
+NAME 	FUNCTION	IP ADDRESS	OPERATING SYSTEM 
 JUMPBOX	GATEWAY	10.0.0.5	LINUX
 WEB 1	WEBSERVER	10.0.0.6	LINUX
 WEB 2	WEBSERVER	10.0.0.7	LINUS
