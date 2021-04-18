@@ -10,5 +10,5 @@ Many of the scripts were used to configure cloud servers with docker containers.
 The final step will show (4) servers that were running vulnerable DVWA containers along with a jump box and a server running on ELK Stack.  
 
 
-#ELK STACK DEPLOYMENT 
+# ELK STACK DEPLOYMENT 
 
