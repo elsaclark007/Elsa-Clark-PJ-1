@@ -10,11 +10,11 @@ Many of the scripts were used to configure cloud servers with docker containers.
 The final step will show (4) servers that were running vulnerable DVWA containers along with a jump box and a server running on ELK Stack.  
 
 
-# ELK STACK DEPLOYMENT 
+# AUTOMATED ELK STACK DEPLOYMENT 
 
 The files in this repository were used and tested to configured a network in generating an Elk Deployment using Azure. The files can be used to recreate the entire network deployment, or only certain pieces of it, such as Filebeat.
+ELK-Stack-Project/Ansible/
 This document contains the following details:
-
 Network Diagram
 Description of the Topology
 Access Policies
@@ -27,8 +27,11 @@ Ansible Build
 JBP - (Jumpbox)
 The jumpbox acts as a gateway router that is exposed to the public internet. It sits in front of all other machines that are not exposed to the internet. Directing all traffic through this one node drastically reduces the attack surface. We can implement strong access controls to this single machine, instead of on every VM.
 
+add diagram network topology
+
+
  # LB - (Load Balancer)
-The load balancer distributez traffic evenly and ensures the application will be available. It also restricts inbound access into the network. The Health Probe function detects faiure of an application on the backnd endpoint. It can also be used to for flow control to manage load or planned downtime. 
+The load balancer distributeS traffic evenly and ensures the application will be higly available, in addition to restricting inbound access to the network. The Health Probe function detects faiure of an application on the backnd endpoint. It can also be used for flow control to manage load or planned downtime. 
 
 # ELK-Server (Elasticsearch, Logstash, Kibana)
 ELK is the three open source projects: (Elasticsearch, Logstash, and Kibana). Elasticsearch is a search and analytics engine server allowing us to easily monitor the vulnerable Virtual Machines (VMs) for changes to the file systems of the VMs on the network and system metrics.
