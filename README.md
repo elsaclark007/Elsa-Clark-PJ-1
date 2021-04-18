@@ -45,9 +45,7 @@ Peer-to-peer network connections (peerings) are configured between the two virtu
 # Red-Team-Network Security Groups - ELK
 Firewalls are built to protect a network. It also is used to block and allow traffic to the virtual network and between machines on the network.
 
-# Configuration Details:
- 
-NAME 	FUNCTION	IP ADDRESS	OPERATING SYSTEM 
+# Configuration Details:  
 JUMPBOX	GATEWAY	10.0.0.5	LINUX
 WEB 1	WEBSERVER	10.0.0.6	LINUX
 WEB 2	WEBSERVER	10.0.0.7	LINUS
@@ -59,14 +57,19 @@ ELK SERVER	ELK MONITORING	10.0.0.9	LINUX![image](https://user-images.githubuserc
  
  
  
+# Elk Configuration
+Ansible was used to configuration the ELK machine. There was no manul configuration which allowed the information to be replicated. 
+The playbook install_elk.yml implements the following tasks:
+Install docker
+Install python3
+Increase virtual memory
+Download and launch a docker elk container
+Enable service docker on boot 
+
+The screenshot below shows the result of running docker ps and after successful configuring the ELK instance 
  
- 
- 
- 
- 
- 
- 
- 
+ <img width="1062" alt="docker ps " src="https://user-images.githubusercontent.com/71534804/115163266-36beef80-a076-11eb-9deb-b61db6175a56.png">
+
  
  
  
