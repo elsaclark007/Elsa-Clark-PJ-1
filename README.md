@@ -9,4 +9,4 @@ This outlines my first project, which is a collection of Linux Scripts and Ansib
 The final step will show (4) servers that were running vulnerable DVWA containers along with a jump box and a server running on ELK Stack.           
 
 
-Cloud-Network Diagram                                                                           https://drive.google.com/file/d/1TPeSUWIXZDPG74pvxHGN9zEiYmpVnga7/view?usp=sharing
+
