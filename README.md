@@ -47,15 +47,14 @@ Firewalls are built to protect a network. It also is used to block and allow tra
 
 # Configuration Details:
 
- # NAME       FUNCTION          IP ADDRESS    OPERATING SYSTEM
- JUMPBOX      GATEWAY           10.0.0.5      LINUX
- WEB 1        WEBSERVER         10.0.0.6      LINUX
- WEB 2        WEBSERVER         10.0.0.7      LINUX
- WEB 3        WEBSERVER         10.0.0.8     LINUX
- ELK SERVER   ELK MONITORING    10.0.0.9      LINUX
+ ![Screen Shot 2021-04-18 at 6 24 21 PM](https://user-images.githubusercontent.com/71534804/115162766-4ee13f80-a073-11eb-80c9-c8fdaebc6c1e.png)
  
- 
- 
+ NAME 	FUNCTION	IP ADDRESS	OPERATING SYSTEM 
+JUMPBOX	GATEWAY	10.0.0.5	LINUX
+WEB 1	WEBSERVER	10.0.0.6	LINUX
+WEB 2	WEBSERVER	10.0.0.7	LINUS
+WEB 3	WEBSERVER	10.0.0.8	LINUX
+ELK SERVER	ELK MONITORING	10.0.0.9	LINUX![image](https://user-images.githubusercontent.com/71534804/115162925-4a695680-a074-11eb-9514-7ac40198d4d7.png)
  
  
  
