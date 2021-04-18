@@ -46,12 +46,10 @@ Peer-to-peer network connections (peerings) are configured between the two virtu
 Firewalls are built to protect a network. It also is used to block and allow traffic to the virtual network and between machines on the network.
 
 # Configuration Details:  
-[image](https://user-images.githubusercontent.com/71534804/115162925-4a695680-a074-11eb-9514-7ac40198d4d7.png)
  
- 
- 
- 
- 
+ ![Screen Shot 2021-04-18 at 7 00 20 PM](https://user-images.githubusercontent.com/71534804/115163654-56571780-a078-11eb-9a57-78e67562ee78.png)
+
+
  
 # Elk Configuration
 Ansible was used to configuration the ELK machine. There was no manul configuration which allowed the information to be replicated. 
