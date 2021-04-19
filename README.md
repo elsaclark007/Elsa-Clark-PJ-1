@@ -1,4 +1,4 @@
-<img width="523" alt="Screen Shot 2021-04-18 at 9 08 06 PM" src="https://user-images.githubusercontent.com/71534804/115169053-f5850a80-a08a-11eb-9254-5ebc1fd79c1c.png">
+
 Project 1 
 
 # Cloud Network  
@@ -29,6 +29,7 @@ The jumpbox acts as a gateway router that is exposed to the public internet. It 
 
 add diagram network topology
 
+<img width="523" alt="Screen Shot 2021-04-18 at 9 08 06 PM" src="https://user-images.githubusercontent.com/71534804/115169216-64626380-a08b-11eb-86d6-9fa2df29f3e8.png">
 
 
 
@@ -39,7 +40,8 @@ Only the jumpbox machine can accept connections from the Internet. Access to thi
 TODO: Add whitelisted IP addresses
 
 Machines within the network can only be accessed by ____ # LB - (Load Balancer)
-The load balancer distributeS traffic evenly and ensures the application will be higly available, in addition to restricting inbound access to the network. The Health Probe function detects faiure of an application on the backnd endpoint. It can also be used for flow control to manage load or planned downtime. 
+The load balancer distributeS traffic evenly and ensures the application will be higly available, in addition to restricting inbound access to the network. The Health Probe function detects faiure of an application on the backnd endpoint. It can also be used for flow control to managed 
+planned downtime. 
 
 # ELK-Server (Elasticsearch, Logstash, Kibana)
 ELK is the three open source projects: (Elasticsearch, Logstash, and Kibana). Elasticsearch is a search and analytics engine server allowing us to easily monitor the vulnerable Virtual Machines (VMs) for changes to the file systems of the VMs on the network and system metrics.
