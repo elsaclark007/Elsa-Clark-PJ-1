@@ -29,8 +29,13 @@ The jumpbox acts as a gateway router that is exposed to the public internet. It 
 
 add diagram network topology
 
+# Access Policies
+The machines on the internal network are not exposed to the public Internet.
+Only the jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
- # LB - (Load Balancer)
+TODO: Add whitelisted IP addresses
+
+Machines within the network can only be accessed by ____ # LB - (Load Balancer)
 The load balancer distributeS traffic evenly and ensures the application will be higly available, in addition to restricting inbound access to the network. The Health Probe function detects faiure of an application on the backnd endpoint. It can also be used for flow control to manage load or planned downtime. 
 
 # ELK-Server (Elasticsearch, Logstash, Kibana)
@@ -72,7 +77,7 @@ The screenshot below shows the result of running docker ps and after successful 
  
  
 # Beats
-The fllowing BEATS was installed on the machines:
+The following BEATS was installed on the machines:
 
 Filebeat with playbook install_filebeat.yml
 Metricbeat with playbook install_metricbeat.yml
