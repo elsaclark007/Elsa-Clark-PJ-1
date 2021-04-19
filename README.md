@@ -1,4 +1,4 @@
-# Elsa-Clark-PJ-1
+<img width="523" alt="Screen Shot 2021-04-18 at 9 08 06 PM" src="https://user-images.githubusercontent.com/71534804/115169053-f5850a80-a08a-11eb-9254-5ebc1fd79c1c.png">
 Project 1 
 
 # Cloud Network  
@@ -28,6 +28,9 @@ JBP - (Jumpbox)
 The jumpbox acts as a gateway router that is exposed to the public internet. It sits in front of all other machines that are not exposed to the internet. Directing all traffic through this one node drastically reduces the attack surface. We can implement strong access controls to this single machine, instead of on every VM.
 
 add diagram network topology
+
+
+
 
 # Access Policies
 The machines on the internal network are not exposed to the public Internet.
