@@ -87,9 +87,6 @@ Enable service docker on boot
 The screenshot below shows the result of running docker ps and after successful configuring the ELK instance 
  
  <img width="1062" alt="docker ps " src="https://user-images.githubusercontent.com/71534804/115163266-36beef80-a076-11eb-9deb-b61db6175a56.png">
-
- 
- 
  
  
 # Beats
