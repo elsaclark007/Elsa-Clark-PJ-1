@@ -33,12 +33,24 @@ The jumpbox acts as a gateway router that is exposed to the public internet. It 
 
 
 # Access Policies
+
+The machines on the internal network are not exposed to the public Internet.
+
+Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the IP address of the external Workstation: 73.132.76.51
+
+Machines within the networks can only be accessed by each other.
+
+Access to the ELK VM is allowed from the IP address: 73.132.76.51
+
+A summary of the access policies in place can be found in the table below
+
+<img width="490" alt="Screen Shot 2021-04-18 at 9 53 59 PM" src="https://user-images.githubusercontent.com/71534804/115171257-ab068c80-a090-11eb-8e4e-45e1b1767fa1.png">
+
+
 The machines on the internal network are not exposed to the public Internet.
 Only the jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-TODO: Add whitelisted IP addresses
-
-Machines within the network can only be accessed by ____ # LB - (Load Balancer)
+Machines within the network can only be accessed by SSH # LB - (Load Balancer)
 The load balancer distributeS traffic evenly and ensures the application will be higly available, in addition to restricting inbound access to the network. The Health Probe function detects faiure of an application on the backnd endpoint. It can also be used for flow control to managed 
 planned downtime. 
 
