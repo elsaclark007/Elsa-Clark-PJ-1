@@ -83,7 +83,7 @@ Filebeat with playbook install_filebeat.yml
 Metricbeat with playbook install_metricbeat.yml
 Using Beats, we are able to collect the following information form each machine: 
 Filebeat monitors the log files or locations that is specified collecting log events, and forwards them either to Elasticsearch or Logstash for indexing.
-Metricbeat takes metric and statistics from your system that is collected and sends them into an output that is specified, (Metrics example: collecting the CPU usage being too high.
+Metricbeat takes metric and statistics from your system that is collected and sends them into an output that is specified, (Metrics example: collecting the CPU usage being too high).
 Machines Being Monitored
 This ELK server is configured to monitor the following machines:
 
