@@ -27,7 +27,6 @@ Ansible Build
 JBP - (Jumpbox)
 The jumpbox acts as a gateway router that is exposed to the public internet. It sits in front of all other machines that are not exposed to the internet. Directing all traffic through this one node drastically reduces the attack surface. We can implement strong access controls to this single machine, instead of on every VM.
 
-add diagram network topology
 
 <img width="523" alt="Screen Shot 2021-04-18 at 9 08 06 PM" src="https://user-images.githubusercontent.com/71534804/115169216-64626380-a08b-11eb-86d6-9fa2df29f3e8.png">
 
